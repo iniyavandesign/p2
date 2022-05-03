@@ -1,0 +1,108 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap");
+
+body,
+a,
+h1,
+p {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#hanging-icons {
+  margin-top: 30px;
+}
+
+.card-hover:hover {
+  box-shadow: 0 2px 5px 3px rgba(235, 233, 233, 30%);
+  border-radius: 15px;
+  transition: ease-out;
+}
+
+.back-img {
+  z-index: 1;
+  position: relative;
+  width: 20%;
+  flex-direction: column;
+}
+
+.overlay_background::before img {
+  width: 100%;
+  height: 100vh;
+  flex: auto;
+  z-index: 1px;
+  background-image: url(image/overlay.gif);
+  background-color: red;
+  background-blend-mode: multiply;
+}
+
+.bx-up-arrow-alt {
+  width: 20px;
+  margin: auto;
+  height: 20px;
+  margin-top: 13px;
+}
+
+.h_icon {
+  font-size: medium;
+}
+
+.navbar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+.nav_right {
+  justify-content: flex-end;
+  align-items: flex-end;
+  justify-items: last baseline;
+}
+
+.nav-item,
+a {
+  font-weight: 400;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.back-to-top {
+  font-size: 20px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  background-color: #0067f4;
+  text-align: center;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: none;
+}
+.back-to-top:hover {
+  color: #fff;
+  background-color: #0067f4;
+}
+
+.c-img {
+  transition: 0.5s ease-in-out;
+}
+
+.c-img:hover {
+  overflow: hidden;
+  transform: scale(0.9);
+  border-radius: 15px;
+  transition: 0.5s ease-in-out;
+}
