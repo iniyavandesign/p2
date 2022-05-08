@@ -13,45 +13,9 @@ p {
   margin-top: 30px;
 }
 
-/* .circle-sketch-highlight {
-  position: relative;
-  font-weight: 700;
+.bg {
+  background-color: #fff;
 }
-.circle-sketch-highlight:before {
-  content: "";
-  z-index: -1;
-  left: -0.5em;
-  top: -0.1em;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #ef8c22;
-  position: absolute;
-  border-right-color: transparent;
-  width: 100%;
-  height: 1em;
-  transform: rotate(2deg);
-  opacity: 0.7;
-  border-radius: 50%;
-  padding: 0.1em 0.25em;
-}
-.circle-sketch-highlight:after {
-  content: "";
-  z-index: -1;
-  left: -0.5em;
-  top: 0.1em;
-  padding: 0.1em 0.25em;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #ef8c22;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  position: absolute;
-  width: 100%;
-  height: 1em;
-  transform: rotate(-1deg);
-  opacity: 0.7;
-  border-radius: 50%;
-} */
 
 .btn_custome {
   background-color: #0067f4;
@@ -91,14 +55,10 @@ p {
 }
 
 .btn_custome_outline:hover bx {
-  width: 160px;
-  height: 40px;
   color: rgb(12, 12, 12);
   border-radius: 0;
   font-size: 1rem;
-  font-weight: 600;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   border: none;
 }
 
@@ -165,7 +125,7 @@ a {
   color: #fff;
   position: fixed;
   right: 20px;
-  bottom: 80px;
+  bottom: 125px;
   width: 45px;
   height: 45px;
   line-height: 45px;
