@@ -19,11 +19,11 @@ p {
 
 .btn_custome {
   background-color: #0067f4;
-  width: 140px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
   color: #fff;
   border-radius: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
   border: none;
@@ -31,34 +31,13 @@ p {
 
 .btn_custome:hover {
   background-color: #0055cc;
-  width: 140px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
   color: #fff;
   border-radius: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
-  border: none;
-}
-
-.btn_custome_outline {
-  width: 200px;
-  align-items: center;
-  height: 40px;
-  color: rgb(12, 12, 12);
-  border-radius: 0;
-  font-size: 1rem;
-  font-weight: 500;
-  font-style: normal;
-  font-weight: 400;
-  border: none;
-}
-
-.btn_custome_outline:hover bx {
-  color: rgb(12, 12, 12);
-  border-radius: 0;
-  font-size: 1rem;
-  font-weight: 800;
   border: none;
 }
 
